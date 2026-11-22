@@ -1,20 +1,25 @@
 {
-	"name": "@alexh-r/${LIBRARY_NAME}",
+	"name": "@alexh-r/calendly-sdk",
 	"version": "0.1.0",
-	"description": "${DESCRIPTION}",
+	"description": "Unofficial typed TypeScript SDK for the Calendly API",
 	"author": "Alejandro Hernández Rosa",
 	"license": "MIT",
-	"keywords": [],
+	"keywords": [
+		"calendly",
+		"sdk",
+		"api",
+		"typescript"
+	],
 	"engines": {
 		"node": ">=20"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/AlexH-R/${LIBRARY_NAME}.git"
+		"url": "git+https://github.com/AlexH-R/calendly-sdk.git"
 	},
-	"homepage": "https://github.com/AlexH-R/${LIBRARY_NAME}#readme",
+	"homepage": "https://github.com/AlexH-R/calendly-sdk#readme",
 	"bugs": {
-		"url": "https://github.com/AlexH-R/${LIBRARY_NAME}/issues"
+		"url": "https://github.com/AlexH-R/calendly-sdk/issues"
 	},
 	"sideEffects": false,
 	"publishConfig": {

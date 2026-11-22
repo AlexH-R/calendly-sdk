@@ -1,15 +1,18 @@
-# ${LIBRARY_NAME}
+# Calendly SDK
 
-**${DESCRIPTION}**
+**A typed, zero-dependency TypeScript client for the [Calendly](https://calendly.com/) API**
 
-[![npm version](https://img.shields.io/npm/v/@alexh-r/${LIBRARY_NAME}?logo=npm&color=cb3837)](https://www.npmjs.com/package/@alexh-r/${LIBRARY_NAME})
-[![CI](https://github.com/AlexH-R/${LIBRARY_NAME}/actions/workflows/ci.yml/badge.svg)](https://github.com/AlexH-R/${LIBRARY_NAME}/actions/workflows/ci.yml)
+> [!NOTE]
+> This is an **unofficial** SDK. It is not affiliated with, endorsed or sponsored by Calendly. Calendly is a trademark of its respective owner.
+
+[![npm version](https://img.shields.io/npm/v/@alexh-r/calendly-sdk?logo=npm&color=cb3837)](https://www.npmjs.com/package/@alexh-r/calendly-sdk)
+[![CI](https://github.com/AlexH-R/calendly-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/AlexH-R/calendly-sdk/actions/workflows/ci.yml)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript&logoColor=white)](#typescript)
 [![Node](https://img.shields.io/badge/node-%E2%89%A520-339933?logo=node.js&logoColor=white)](#installation)
 [![Bun](https://img.shields.io/badge/bun-supported-fbf0df?logo=bun&logoColor=black)](https://bun.sh)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-`@alexh-r/${LIBRARY_NAME}` ${SHORT_PITCH}
+`@alexh-r/calendly-sdk` ${SHORT_PITCH}
 
 * **Fully typed**: ${FEATURE}
 * **No dependencies**: uses only web standard APIs, so it runs on Node, Bun, Deno and edge runtimes.
@@ -27,13 +30,13 @@
 
 ```bash
 # bun
-bun add @alexh-r/${LIBRARY_NAME}
+bun add @alexh-r/calendly-sdk
 
 # npm
-npm install @alexh-r/${LIBRARY_NAME}
+npm install @alexh-r/calendly-sdk
 
 # pnpm
-pnpm add @alexh-r/${LIBRARY_NAME}
+pnpm add @alexh-r/calendly-sdk
 ```
 
 The package is **ESM only** and needs Node 20+, Bun or Deno.
@@ -41,7 +44,7 @@ The package is **ESM only** and needs Node 20+, Bun or Deno.
 ## Quick start
 
 ```ts
-import { hello } from "@alexh-r/${LIBRARY_NAME}";
+import { hello } from "@alexh-r/calendly-sdk";
 
 console.log(hello());
 ```

@@ -4,8 +4,8 @@ Steps to follow every time you create a new library from this template. GitHub's
 
 ## 1. Create the repository
 
-- [ ] On GitHub, open this template and click **Use this template → Create a new repository**.
-- [ ] Clone it and run `bun install`.
+- [x] On GitHub, open this template and click **Use this template → Create a new repository**.
+- [x] Clone it and run `bun install`.
 
 ## 2. Replace the placeholders
 
@@ -15,12 +15,12 @@ Find them all with:
 grep -rn '\${' --exclude-dir=node_modules --exclude-dir=.git . | grep -v '\${{'
 ```
 
-- [ ] `${LIBRARY_NAME}`: package and repository name (`package.json`, `README.md`).
-- [ ] `${DESCRIPTION}`, `${SHORT_PITCH}`, `${FEATURE}`: description and README texts.
-- [ ] Fill `keywords` in `package.json`.
-- [ ] Reset `version` in `package.json` to `0.1.0` if needed.
-- [ ] Replace `src/index.ts` and `src/test/index.spec.ts` with real code.
-- [ ] Delete this `SETUP.md` (or keep it in a `docs/` folder) once everything is done.
+- [x] `${LIBRARY_NAME}`: package and repository name (`package.json`, `README.md`).
+- [x] `${DESCRIPTION}`, `${SHORT_PITCH}`, `${FEATURE}`: description and README texts.
+- [x] Fill `keywords` in `package.json`.
+- [x] Reset `version` in `package.json` to `0.1.0` if needed.
+- [x] Replace `src/index.ts` and `src/test/index.spec.ts` with real code.
+- [x] Delete this `SETUP.md` (or keep it in a `docs/` folder) once everything is done.
 
 ## 3. Check that everything passes
 
@@ -30,10 +30,10 @@ bun run lint && bun run typecheck && bun test && bun run build && bunx publint
 
 ## 4. GitHub repository settings
 
-- [ ] **Settings → General → Pull Requests**: allow only squash merging and enable "Automatically delete head branches".
-- [ ] **Labels**: create `breaking` and `ignore-for-release` (`enhancement`, `bug` and `documentation` exist by default). They are used by `.github/release.yml` and `.github/dependabot.yml`.
-- [ ] **Rules → Rulesets → New branch ruleset** on `main`: require a pull request (0 approvals), require the status check `check`, block deletions and force pushes.
-- [ ] **Rules → Rulesets → New tag ruleset** on `v*`: block updates, deletions and force pushes.
+- [x] **Settings → General → Pull Requests**: allow only squash merging and enable "Automatically delete head branches".
+- [x] **Labels**: create `breaking` and `ignore-for-release` (`enhancement`, `bug` and `documentation` exist by default). They are used by `.github/release.yml` and `.github/dependabot.yml`.
+- [x] **Rules → Rulesets → New branch ruleset** on `main`: require a pull request (0 approvals), require the status check `check`, block deletions and force pushes.
+- [x] **Rules → Rulesets → New tag ruleset** on `v*`: block updates, deletions and force pushes.
 
 The `check` status only appears in the ruleset search after the CI workflow has run once, so push a first commit before creating the branch ruleset.
 
