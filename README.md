@@ -6,7 +6,6 @@
 > This is an **unofficial** SDK. It is not affiliated with, endorsed or sponsored by Calendly. Calendly is a trademark of its respective owner.
 
 [![npm version](https://img.shields.io/npm/v/@alexh-r/calendly-sdk?logo=npm&color=cb3837)](https://www.npmjs.com/package/@alexh-r/calendly-sdk)
-[![CI](https://github.com/AlexH-R/calendly-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/AlexH-R/calendly-sdk/actions/workflows/ci.yml)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript&logoColor=white)](#typescript)
 [![Node](https://img.shields.io/badge/node-%E2%89%A520-339933?logo=node.js&logoColor=white)](#installation)
 [![Bun](https://img.shields.io/badge/bun-supported-fbf0df?logo=bun&logoColor=black)](https://bun.sh)
